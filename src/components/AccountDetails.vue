@@ -84,6 +84,11 @@ export default {
       toggledoff: false,
       foodMenuOff: false,
       fullWidthImageIndex: null,
+      mealStatusActive: false,
+      mealStatusFlexed: false,
+      mealStatusGrow: false,
+      borderL: false,
+      borderR: false,
       foods: [
         {
           image: require("../assets/images/food.png"),
@@ -155,6 +160,7 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 .details {
   margin-top: 2rem;
+  position: absolute;
 }
 .schedule__wrap {
   display: flex;
