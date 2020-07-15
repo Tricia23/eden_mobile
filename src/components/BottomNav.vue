@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bottom-navigation">
     <div class="bottom-navbar">
       <a href="#">
         <svg
@@ -121,6 +121,10 @@ export default {
 
 a #icon:active {
   fill: #00c267;
+}
+
+.bottom-navigation {
+  position: absolute;
 }
 
 .bottom-navbar span {

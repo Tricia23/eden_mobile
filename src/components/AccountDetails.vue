@@ -1,5 +1,5 @@
 <template>
-  <div class="details">
+  <div class="details" :class="{ 'detailed': detailed }">
     <div class="schedule__wrap">
       <h2>Schedule</h2>
       <div class="schedule__reconfigure">
@@ -36,7 +36,7 @@
             </transition>
           </div>
           <div
-            @click="toggle = !toggle; mealStatusActive = !mealStatusActive; mealStatusGrow = !mealStatusGrow; borderL = !borderL; borderR = !borderR; visible=!visible; mealTitle=!mealTitle; mealStatusFlexed =! mealStatusFlexed; "
+            @click="toggle = !toggle; mealStatusActive = !mealStatusActive; mealStatusGrow = !mealStatusGrow; borderL = !borderL; borderR = !borderR; visible=!visible; mealTitle=!mealTitle; mealStatusFlexed =! mealStatusFlexed; detailed =! detailed; "
             class="account__status-list"
             :class="{ 'meal__status--Grow': mealStatusGrow, 'borderR': borderR }"
           >
@@ -87,6 +87,7 @@ export default {
       mealStatusActive: false,
       mealStatusFlexed: false,
       mealStatusGrow: false,
+      detailed: false,
       borderL: false,
       borderR: false,
       foods: [
@@ -160,6 +161,9 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 .details {
   margin-top: 2rem;
+}
+
+.detailed {
   position: absolute;
 }
 .schedule__wrap {
@@ -432,12 +436,12 @@ a {
 
 .fullWidthImage {
   width: 100vw !important;
-  height: 450px !important;
+  height: 400px !important;
   display: flex;
   position: absolute;
   z-index: 999999;
   left: 0;
-  top: 8%;
+  top: 5%;
   transition-duration: 1s;
   transition-timing-function: ease;
   border-radius: 0 !important;
