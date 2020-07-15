@@ -101,6 +101,8 @@ export default {
 
 
 <style scoped>
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 .bottom-navbar {
   display: flex;
   position: fixed;

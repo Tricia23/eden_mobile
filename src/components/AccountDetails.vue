@@ -151,6 +151,8 @@ export default {
 </script>
 
 <style scoped>
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 .details {
   margin-top: 2rem;
 }
@@ -242,9 +244,11 @@ a {
 
   text-decoration: line-through;
   color: #fff;
-  font-family: "Cerebri Sans";
+
   font-size: 14px;
   line-height: 17px;
+  font-family: sans-serif;
+  letter-spacing: 0.4px;
 }
 
 .discount__price {
@@ -254,6 +258,8 @@ a {
   font-weight: 600;
   line-height: 17px;
   margin-top: 4px;
+
+  letter-spacing: 0.4px;
 }
 
 .meal__status {
@@ -309,6 +315,8 @@ a {
   display: inline-block;
   display: block;
   top: 30%;
+  font-family: sans-serif;
+  letter-spacing: 0.4px;
 }
 
 .meal__status-label .todays__meal {
@@ -318,6 +326,7 @@ a {
   line-height: 26px;
   margin-left: 10px;
   position: absolute;
+  font-family: "PT Serif";
 }
 
 .account__status-list {
@@ -336,7 +345,8 @@ a {
 .account__status-list span {
   display: block;
   color: #fff;
-  font-family: "Cerebri Sans";
+
+  letter-spacing: 0.4px;
   font-size: 14px;
   line-height: 17px;
   background-color: #ffbe56;
@@ -393,7 +403,7 @@ a {
   left: 0;
   margin-top: -165px;
   width: 100vw;
-  transition-duration: 1.3s;
+  transition-duration: 1s;
   transition-timing-function: ease;
   height: 100vh;
   background-color: #ffffff;
@@ -416,7 +426,7 @@ a {
 
 .fullWidthImage {
   width: 100vw !important;
-  height: 400px !important;
+  height: 450px !important;
   display: flex;
   position: absolute;
   z-index: 999999;
@@ -424,6 +434,7 @@ a {
   top: 8%;
   transition-duration: 1s;
   transition-timing-function: ease;
+  border-radius: 0 !important;
 }
 .toggledoff {
   display: none;
@@ -476,6 +487,7 @@ a {
   width: 60px;
   transition-duration: 1s;
   transition-timing-function: ease;
+  border-radius: 10px;
 }
 
 .foodMenuOff {

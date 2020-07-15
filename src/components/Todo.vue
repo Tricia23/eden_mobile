@@ -31,6 +31,8 @@
 </template>
 
 <style scoped>
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 .todo {
   margin-top: 2rem;
   padding: 1rem 0 7rem 0;
@@ -50,11 +52,11 @@
   margin-top: 1rem;
 }
 .todo__time span {
-  font-family: "Cerebri Sans";
   font-size: 12px;
   line-height: 15px;
   text-align: left;
   display: block;
+  color: #333;
 }
 
 .todo__time {
@@ -73,7 +75,6 @@
 
 .todo__action span {
   color: #121212;
-  font-family: "Cerebri Sans";
   font-size: 15px;
   font-weight: 300;
   line-height: 19px;

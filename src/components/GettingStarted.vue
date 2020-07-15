@@ -56,13 +56,14 @@
   font-weight: 700;
   line-height: 20px;
   margin: unset;
+  letter-spacing: 0.4;
 }
 
 .gettingStarted__wrap span {
   display: block;
   text-align: left;
   color: #383838;
-  font-family: "Cerebri Sans";
+  letter-spacing: 0.5;
   font-size: 14px;
   font-weight: 300;
   line-height: 20px;
@@ -93,24 +94,26 @@
 .gettingStarted__video {
   width: 50%;
   padding-left: 1rem;
-  padding-right: 2rem;
+  padding-right: 1rem;
 }
 
 .gettingStarted__call span {
   display: block;
   color: #383838;
-  font-family: "Cerebri Sans";
+  font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   margin-top: 13px;
+  letter-spacing: 0.4;
 }
 .gettingStarted__video span {
   display: block;
   color: #383838;
-  font-family: "Cerebri Sans";
+  font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   margin-top: 13px;
+  letter-spacing: 0.4;
 }
 
 .call__icon img {
