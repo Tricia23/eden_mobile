@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <HelloWorld />
+    <UserProfile />
     <AccountDetails />
     <GettingStarted />
     <Todo />
@@ -10,7 +10,7 @@
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import UserProfile from "@/components/UserProfile.vue";
 import AccountDetails from "@/components/AccountDetails.vue";
 import GettingStarted from "@/components/GettingStarted.vue";
 import BottomNav from "@/components/BottomNav.vue";
@@ -19,7 +19,7 @@ import Todo from "@/components/Todo.vue";
 export default {
   name: "Home",
   components: {
-    HelloWorld,
+    UserProfile,
     AccountDetails,
     GettingStarted,
     BottomNav,
